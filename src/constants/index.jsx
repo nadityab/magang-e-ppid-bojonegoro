@@ -1,3 +1,6 @@
+{
+  /*Cons for Navbar */
+}
 export const navItems = [
   { label: "Beranda", href: "#" },
   { label: "Profil", href: "#" },
@@ -6,6 +9,10 @@ export const navItems = [
   { label: "Laporan PPID", href: "#" },
   { label: "Transparansi", href: "#" },
 ];
+
+{
+  /*Cons for FeatureSection */
+}
 
 import { BookOpen, BookX, Globe, BookText, Users } from "lucide-react"; // Import icons
 
@@ -63,4 +70,43 @@ export const cardItems = [
     icon: <Users className="w-12 h-12 text-green-600" />,
     href: "#informasi-mobile", // Add the href
   },
+];
+
+{
+  /*Cons for InformasiSection */
+}
+export const informasiLeft = [
+  {
+    image:
+      "https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp",
+    title: "New album is released!",
+    date: "20 Feb",
+    description: "Click the button to listen on Spotiwhy qdqd.",
+    buttonHref: "https://example.com",
+  },
+  {
+    image:
+      "https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp",
+    title: "New album is released!",
+    date: "20 Feb",
+    description: "Click the button to listen on Spotiwhy qdqd.",
+    buttonHref: "https://example.com",
+  },
+  // You can add more objects here
+  // You can add more objects here
+];
+
+export const informasiRight = [
+  {
+    date: "20 Februari",
+    description: "If a dog chews shoes whose shoes does he qdqdq?",
+    buttonHref: "https://example.com",
+  },
+  {
+    date: "20 Februari",
+    description: "If a dog chews shoes whose shoes does he qdqdq?",
+    buttonHref: "https://example.com",
+  },
+  // You can add more objects here
+  // You can add more objects here
 ];

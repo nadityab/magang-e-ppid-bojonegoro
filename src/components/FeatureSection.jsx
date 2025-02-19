@@ -6,7 +6,7 @@ const FeatureSection = () => {
   return (
     <div className="mt-20 text-lg text-center">
       {/* Judul */}
-      <h1 className="text-4xl text-[rgb(48,134,98)] sm:text-6xl lg:text-7xl text-center font-bold">
+      <h1 className="text-4xl text-[rgb(48,134,98)] sm:text-6xl lg:text-6xl text-center font-bold">
         PENGAJUAN INFORMASI
         <br />
         KINI LEBIH MUDAH
@@ -22,7 +22,7 @@ const FeatureSection = () => {
       {/* Cards Container - Flexbox for Side by Side Layout */}
       <div className="mt-15 flex flex-wrap justify-center gap-3">
         {cardItems.map((card, index) => (
-          <div key={index} className={`card ${card.bgColor} w-90 shadow-xl`}>
+          <div key={index} className={`card ${card.bgColor} w-80 shadow-xl`}>
             <figure className="px-10 pt-10">
               <div
                 className={`w-24 h-24 flex items-center justify-center ${card.iconBg} rounded-full shadow-md`}
