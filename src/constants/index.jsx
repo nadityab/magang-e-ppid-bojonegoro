@@ -21,7 +21,7 @@ export const cardItems = [
     title: "Alur Permohonan",
     description:
       "Warga dapat mengajukan permohonan informasi pada PPID di Badan Publik",
-    bgColor: "bg-[rgb(48,134,98)]",
+    bgColor: "bg-[rgba(14,124,98,255)]",
     textColor: "text-white",
     iconBg: "bg-white",
     iconColor: "text-green-600",
@@ -34,7 +34,7 @@ export const cardItems = [
       "Ungkapan rasa tidak senang, ketidakpuasan kepada Badan Publik",
     bgColor: "bg-white",
     textColor: "text-black",
-    iconBg: "bg-[rgb(48,134,98)]",
+    iconBg: "bg-[rgba(14,124,98,255)]",
     iconColor: "text-white",
     icon: <BookX className="w-12 h-12 text-white" />,
     href: "#alur-keberatan", // Add the href
@@ -42,7 +42,7 @@ export const cardItems = [
   {
     title: "Serta Merta",
     description: "Informasi yang dapat mengancam hajat hidup orang banyak",
-    bgColor: "bg-[rgb(48,134,98)]",
+    bgColor: "bg-[rgba(14,124,98,255)]",
     textColor: "text-white",
     iconBg: "bg-white",
     iconColor: "text-green-600",
@@ -55,7 +55,7 @@ export const cardItems = [
       "Informasi Publik yang wajib disediakan dan diumumkan setiap saat",
     bgColor: "bg-white",
     textColor: "text-black",
-    iconBg: "bg-[rgb(48,134,98)]",
+    iconBg: "bg-[rgba(14,124,98,255)]",
     iconColor: "text-white",
     icon: <BookText className="w-12 h-12 text-white" />,
     href: "#daftar-informasi", // Add the href
@@ -63,7 +63,7 @@ export const cardItems = [
   {
     title: "Informasi Mobile",
     description: "Layanan sambang langsung di berbagai desa-desa",
-    bgColor: "bg-[rgb(48,134,98)]",
+    bgColor: "bg-[rgba(14,124,98,255)]",
     textColor: "text-white",
     iconBg: "bg-white",
     iconColor: "text-green-600",

@@ -6,14 +6,14 @@ const FeatureSection = () => {
   return (
     <div className="mt-20 text-lg text-center">
       {/* Judul */}
-      <h1 className="text-4xl text-[rgb(48,134,98)] sm:text-6xl lg:text-6xl text-center font-bold">
+      <h1 className="text-4xl text-[rgba(14,124,98,255)] sm:text-6xl lg:text-6xl text-center font-bold">
         PENGAJUAN INFORMASI
         <br />
         KINI LEBIH MUDAH
       </h1>
 
       {/* Deskripsi */}
-      <p className="mt-10 text-[rgb(101,114,113)] text-lg text-center">
+      <p className="mt-10 text-[rgba(14,124,98,255)] text-lg text-center">
         Ajukan permohonan Informasi Publik, atau keberatan Informasi Publik
         <br />
         dengan mengisi E-Form secara online.

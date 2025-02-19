@@ -25,7 +25,7 @@ const HeroSection = () => {
         </p>
 
         {/* Tombol Selengkapnya */}
-        <button className="mt-6 px-8 py-3 bg-[rgb(48,134,98)] hover:bg-[rgb(97,197,165)] text-white font-semibold rounded-lg shadow-lg transition flex items-center gap-2">
+        <button className="mt-6 px-8 py-3 bg-[rgb(16,124,100)] hover:bg-[rgb(97,197,165)] text-white font-semibold rounded-lg shadow-lg transition flex items-center gap-2">
           Selengkapnya <ChevronRight className="w-5 h-5" />
         </button>
       </div>
