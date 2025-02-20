@@ -110,3 +110,51 @@ export const informasiRight = [
   // You can add more objects here
   // You can add more objects here
 ];
+
+{
+  /*Cons for Galeri */
+}
+export const galleryItems = [
+  {
+    id: 1,
+    title: "Life Hack",
+    description: "How to park your car at your garage?",
+    image:
+      "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
+  },
+  {
+    id: 2,
+    title: "Tech Trends",
+    description: "Latest updates in the tech world!",
+    image:
+      "https://img.daisyui.com/images/stock/photo-1606107558224-40e45f3a47a5.webp",
+  },
+  {
+    id: 3,
+    title: "Healthy Living",
+    description: "Tips for a balanced and healthy lifestyle.",
+    image:
+      "https://img.daisyui.com/images/stock/photo-1606107560005-5141bba3ba18.webp",
+  },
+  {
+    id: 4,
+    title: "Travel Adventures",
+    description: "Explore the world with these travel guides.",
+    image:
+      "https://img.daisyui.com/images/stock/photo-1606107559876-c2a7b5f19b91.webp",
+  },
+  {
+    id: 5,
+    title: "Home Decor",
+    description: "Transform your home with these ideas!",
+    image:
+      "https://img.daisyui.com/images/stock/photo-1606107558671-0c4a4a5f2d9f.webp",
+  },
+  {
+    id: 6,
+    title: "Productivity Hacks",
+    description: "Boost your efficiency with these tricks.",
+    image:
+      "https://img.daisyui.com/images/stock/photo-1606107560813-51aefb0b69e7.webp",
+  },
+];

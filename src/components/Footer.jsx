@@ -3,10 +3,10 @@ import logo from "../assets/images/logo.png";
 
 const Footer = () => {
   return (
-    <div className="bg-gray-100 p-6">
-      <div className="grid grid-cols-3 gap-10 items-start">
+    <div className="bg-gray-100 px-6 py-8">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-10 items-center text-center md:text-left">
         {/* Logo dan Teks */}
-        <div className="flex items-center gap-4">
+        <div className="flex flex-col md:flex-row items-center md:items-start gap-4">
           <img className="h-20 w-40" src={logo} alt="PPID Logo" />
           <div>
             <h2 className="text-xl font-bold text-black">
@@ -18,10 +18,8 @@ const Footer = () => {
             </p>
           </div>
         </div>
-      </div>
 
-      {/* Informasi Kontak & Media Sosial (Di bagian bawah kiri) */}
-      <div className="ml-5 mt-6 flex justify-between items-end">
+        {/* Informasi Kontak */}
         <div className="text-black text-sm leading-relaxed">
           <p>GEDUNG PUSAT INFORMASI PUBLIK (PIP) PEMKAB BOJONEGORO</p>
           <p>(0353) 880999</p>
@@ -30,11 +28,11 @@ const Footer = () => {
         </div>
 
         {/* Media Sosial */}
-        <div className="mr-10 flex flex-col items-end">
-          <p className="text-l font-semibold text-black mb-2">
+        <div className="flex flex-col items-center md:items-end">
+          <p className="text-lg font-semibold text-black mb-2">
             IKUTI KAMI DI MEDIA SOSIAL :
           </p>
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-3 justify-center md:justify-end">
             <a
               href="#"
               className="p-2 bg-[rgba(48,188,156,255)] rounded-full text-white"
