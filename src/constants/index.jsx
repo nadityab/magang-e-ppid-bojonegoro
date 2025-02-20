@@ -79,35 +79,39 @@ export const informasiLeft = [
   {
     image:
       "https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp",
-    title: "New album is released!",
+    title: "Insert Text Here!",
     date: "20 Feb",
-    description: "Click the button to listen on Spotiwhy qdqd.",
+    description: "Insert Text Here!",
     buttonHref: "https://example.com",
   },
   {
-    image:
-      "https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp",
-    title: "New album is released!",
+    image: "https://placehold.co/600x400?font=roboto",
+    title: "Insert Text Here!",
     date: "20 Feb",
-    description: "Click the button to listen on Spotiwhy qdqd.",
+    description: "Insert Text Here!",
     buttonHref: "https://example.com",
   },
-  // You can add more objects here
+  {
+    image: "https://placehold.co/600x400",
+    title: "Insert Text Here!",
+    date: "20 Feb",
+    description: "Insert Text Here!",
+    buttonHref: "https://example.com",
+  },
   // You can add more objects here
 ];
 
 export const informasiRight = [
   {
     date: "20 Februari",
-    description: "If a dog chews shoes whose shoes does he qdqdq?",
+    description: "insert text",
     buttonHref: "https://example.com",
   },
   {
     date: "20 Februari",
-    description: "If a dog chews shoes whose shoes does he qdqdq?",
+    description: "insert text",
     buttonHref: "https://example.com",
   },
-  // You can add more objects here
   // You can add more objects here
 ];
 
@@ -117,44 +121,74 @@ export const informasiRight = [
 export const galleryItems = [
   {
     id: 1,
-    title: "Life Hack",
-    description: "How to park your car at your garage?",
-    image:
-      "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
+    title: "Foto",
+    description: "Foto",
+    image: "https://placehold.co/600x400",
+    buttonHref: "#",
   },
   {
     id: 2,
-    title: "Tech Trends",
-    description: "Latest updates in the tech world!",
-    image:
-      "https://img.daisyui.com/images/stock/photo-1606107558224-40e45f3a47a5.webp",
+    title: "Info Grafis",
+    description: "Info Grafis",
+    image: "https://placehold.co/600x400",
+    buttonHref: "#",
   },
   {
     id: 3,
-    title: "Healthy Living",
-    description: "Tips for a balanced and healthy lifestyle.",
-    image:
-      "https://img.daisyui.com/images/stock/photo-1606107560005-5141bba3ba18.webp",
+    title: "Video",
+    description: "Video",
+    image: "https://placehold.co/600x400",
+    buttonHref: "#",
   },
   {
     id: 4,
-    title: "Travel Adventures",
-    description: "Explore the world with these travel guides.",
-    image:
-      "https://img.daisyui.com/images/stock/photo-1606107559876-c2a7b5f19b91.webp",
+    title: "Kas dan Neraca",
+    description: "Kas dan Neraca",
+    image: "https://placehold.co/600x400",
+    buttonHref: "#",
   },
   {
     id: 5,
-    title: "Home Decor",
+    title: "SMS",
     description: "Transform your home with these ideas!",
-    image:
-      "https://img.daisyui.com/images/stock/photo-1606107558671-0c4a4a5f2d9f.webp",
+    image: "https://placehold.co/600x400",
+    buttonHref: "#",
   },
   {
     id: 6,
-    title: "Productivity Hacks",
+    title: "Sambang Dana",
     description: "Boost your efficiency with these tricks.",
-    image:
-      "https://img.daisyui.com/images/stock/photo-1606107560813-51aefb0b69e7.webp",
+    image: "https://placehold.co/600x400",
+    buttonHref: "#",
   },
+  {
+    id: 7,
+    title: "Aset PPID",
+    description: "Transform your home with these ideas!",
+    image: "https://placehold.co/600x400",
+    buttonHref: "#",
+  },
+  {
+    id: 8,
+    title: "Sampaikan Aspirasimu",
+    description: "Boost your efficiency with these tricks.",
+    image: "https://placehold.co/600x400",
+    buttonHref: "#",
+  },
+];
+
+{
+  /*Cons for Pembantu */
+}
+export const pembantuImages = [
+  "https://placehold.co/600x400",
+  "https://placehold.co/600x400",
+  "https://placehold.co/600x400",
+  "https://placehold.co/600x400",
+  "https://placehold.co/600x400",
+  "https://placehold.co/600x400",
+  "https://placehold.co/600x400",
+  "https://placehold.co/600x400",
+  "https://placehold.co/600x400",
+  "https://placehold.co/600x400",
 ];
